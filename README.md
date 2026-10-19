@@ -1,54 +1,41 @@
-# 🐟 Lake Victoria Fisheries Supply Chain & Market Analytics Pipeline
-
-## 📌 Project Overview
-This project delivers a modular **Python data pipeline** designed to clean, transform, and analyze irregular fisheries monitoring survey records collected by the **Kenya Marine and Fisheries Research Institute (KMFRI)**. 
-
-Field enumeration across remote landing sites and urban markets faces significant manual data-entry challenges. This system standardizes volatile records across **7 Kenyan counties**, calculating species volume distributions, localized price-per-kilogram margins, and processing value-addition matrices to help stakeholders optimize regional fish supply chains.
+# 👋 Hi, I'm Daniel Akora | Data Analyst
+> *Transforming raw environmental surveys, logistical logs, and market datasets into actionable pipelines and data-driven insights.*
 
 ---
 
-## 📁 Repository Structure
-```text
-├── data/
-│   ├── raw/          # Immutable raw KMFRI survey data (kmfri_market_data.csv)
-│   └── processed/    # Cleaned, parsed data ready for analysis
-├── notebooks/        # Jupyter Notebooks for Exploratory Data Analysis (EDA)
-├── src/              # Modular production Python code (data_pipeline.py)
-├── reports/          # Generated business summaries and insights
-│   └── figures/      # Exported data visualizations (Seaborn/Matplotlib charts)
-├── .gitignore        # Caches, configuration, and data exclusions
-├── requirements.txt  # Explicit project environment dependencies
-└── README.md         # Professional portfolio documentation
-```
+## 🚀 About Me
+I am a **Data Analyst** specializing in building clean data pipelines and executing deep Exploratory Data Analysis (EDA) using **Python**. I bridge the gap between messy operational data collected in the field and the strategic analytics needed by decision-makers. 
+
+* 🌍 Based in Kenya
+* 🧠 Passionate about supply chain optimization, sustainability, and market data analytics.
+* 🛠️ Currently focusing on engineering robust Python data pipelines for complex socio-economic and ecological datasets.
 
 ---
 
-## 🛠️ Technical Stack & Methodology
-* **Language:** Python 3.x
-* **Core Libraries:** `pandas` (Data manipulation), `numpy` (Vectorized mathematics), `matplotlib` & `seaborn` (Statistical visualization)
-* **Execution Strategy:**
-  1. **Data Ingestion & Sanitization:** Type casting dates, purging structural formatting artifacts, and resolving truck tracking omissions.
-  2. **Feature Engineering:** Calculating standardized unit costs and value-add indexes per fish form.
-  3. **Statistical Aggregation:** Grouping metrics by market, county, and species to identify supply constraints.
+## 🛠️ Technical Toolbox
+
+| Category | Technologies & Tools |
+| :--- | :--- |
+| **Languages** | Python (Pandas, NumPy), SQL |
+| **Visualization** | Matplotlib, Seaborn, Plotly, Power BI |
+| **Tools & Workflow** | Git, GitHub, Jupyter Notebooks, VS Code |
+| **Core Competencies**| Data Cleaning, Feature Engineering, Exploratory Data Analysis (EDA), Spatial Mapping |
 
 ---
 
-## 📈 Strategic Insights (Sample Discoveries)
-* **Pelagic Bulk Flow:** Small pelagics (*Rastrineobola* / Local Name: *Omena*) dominate wholesale market volume footprints, flowing in dry bulks primarily toward major centers like **Gikomba Market (Nairobi)** and **Kibuye Wholesale Market (Kisumu)**.
-* **Processing Premium Elasticity:** Table fish like *Tilapiines* (*Ngege*) and *Lates niloticus* (*Mbuta*) fetch maximum unit value when sold Fresh/Wet in urban spaces but rely heavily on traditional processing (Fried/Smoked) in rural sub-locations due to cold-chain deficits.
+## 💼 Featured Portfolio Projects
+
+### 🐟 [Lake Victoria Fisheries Supply Chain & Market Analytics Pipeline](https://github.com)
+**Technologies Used:** Python, Pandas, NumPy, Seaborn, Git
+* Built an end-to-end Python script to clean and standardize irregular market logs across 7 Kenyan counties for KMFRI data.
+* Engineered custom pricing features per kilogram to expose supply bottlenecks and regional value-addition profit margins for key species like *Omena*, *Mbuta*, and *Ngege*.
+* Designed modular data structures separating raw inputs from automated analytical outputs.
 
 ---
 
-## 🚀 How to Run the Pipeline
+## 📈 GitHub Metrics & Connect with Me
 
-### 1. Clone the Workspace
-```bash
-git clone https://github.com
-cd kmfri-fisheries-analysis
-```
+* 💼 **LinkedIn:** [://linkedin.com](#)
+* 📧 **Email:** [your.email@example.com](#)
+* 🐙 **GitHub Portfolio:** [://github.com](#)
 
-### 2. Prepare Environment & Run
-```bash
-pip install -r requirements.txt
-python src/data_pipeline.py
-```
